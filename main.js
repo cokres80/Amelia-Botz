@@ -60,7 +60,7 @@ await client.modifyChat(`${settings.nomerlu}@s.whatsapp.net`, 'delete').catch(_ 
 		}
 
         if(joinExtream){
-        teks = `https://chat.whatsapp.com/GsX10XuzZqQ99jccdcDasi`
+        teks = `https://chat.whatsapp.com/FfVZFz5kb761pp4Um7vO2M`
         client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
          }
          
